@@ -21,25 +21,32 @@
         }
         header h1 { font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2; }
         header h2 { font-size: 1.5rem; font-weight: 400; opacity: 0.95; }
-        .image-section {
-            text-align: center;
-            padding: 40px 0;
-        }
-        .image-section img {
+        .image-placeholder {
             width: 100%;
             max-width: 700px;
-            height: 400px;
-            object-fit: cover;
+            height: 350px;
+            background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
             border-radius: 12px;
+            margin: 30px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.3rem;
+            text-align: center;
+            padding: 20px;
             box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-            margin: 20px 0;
-            background: #f0f0f0;
+        }
+        .image-placeholder .icon {
+            font-size: 4rem;
+            margin-bottom: 15px;
         }
         .image-caption {
             font-style: italic;
             color: #666;
             margin-top: 10px;
             font-size: 0.95rem;
+            text-align: center;
         }
         .highlight-box {
             background: #f8f9fa;
@@ -130,7 +137,7 @@
             header h1 { font-size: 1.8rem; }
             header h2 { font-size: 1.2rem; }
             .price { font-size: 2.5rem; }
-            .image-section img { height: 250px; }
+            .image-placeholder { height: 250px; font-size: 1.1rem; }
         }
     </style>
 </head>
@@ -148,10 +155,13 @@
                 <p><strong>You're about to discover why thousands of bluebird enthusiasts are quietly paying $8–$12 per cup for something you can grow in your laundry room.</strong></p>
             </div>
             
-            <div class="image-section">
-                <img src="https://www.allaboutbirds.org/guide/assets/photo/297342281-480px.jpg" alt="Male Eastern Bluebird" onerror="this.style.display='none'">
-                <p class="image-caption">Male Eastern Bluebird (Sialia sialis) - The vibrant blue coloring makes them one of North America's most beloved backyard birds.</p>
+            <div class="image-placeholder">
+                <div>
+                    <div class="icon">🐦</div>
+                    <div>[Eastern Bluebird Photo]<br>Male with bright blue plumage</div>
+                </div>
             </div>
+            <p class="image-caption">Male Eastern Bluebird (Sialia sialis) - The vibrant blue coloring makes them one of North America's most beloved backyard birds.</p>
             
             <p>No farm required. No special equipment. No prior experience with insects, birds, or business.</p>
             <p>Just a simple, repeatable system that takes 15 minutes per week to maintain—and creates a genuine income stream while supporting one of North America's most beloved backyard birds.</p>
@@ -166,10 +176,13 @@
             
             <p>During nesting season (March through August), a single pair of bluebirds will feed their chicks up to <strong>300 insects per day</strong>. That's not a typo. Three hundred insects. Every single day.</p>
             
-            <div class="image-section">
-                <img src="https://www.allaboutbirds.org/guide/assets/photo/297342291-480px.jpg" alt="Eastern Bluebird at nest box" onerror="this.style.display='none'">
-                <p class="image-caption">Eastern Bluebird at nesting box - During breeding season, the demand for protein-rich mealworms skyrockets.</p>
+            <div class="image-placeholder">
+                <div>
+                    <div class="icon">🏠</div>
+                    <div>[Eastern Bluebird Photo]<br>At nesting box during breeding season</div>
+                </div>
             </div>
+            <p class="image-caption">Eastern Bluebird at nesting box - During breeding season, the demand for protein-rich mealworms skyrockets.</p>
             
             <div class="highlight-box">
                 <p><strong>Live mealworms are the #1 preferred food source for bluebirds.</strong></p>
@@ -216,10 +229,13 @@
         <div class="container">
             <h2>Real Numbers from Real Mealworm Growers</h2>
             
-            <div class="image-section">
-                <img src="https://www.allaboutbirds.org/guide/assets/photo/297342301-480px.jpg" alt="Eastern Bluebird pair" onerror="this.style.display='none'">
-                <p class="image-caption">Eastern Bluebirds at feeder - Your customers will return week after week to keep their bluebirds well-fed.</p>
+            <div class="image-placeholder">
+                <div>
+                    <div class="icon">🌳</div>
+                    <div>[Eastern Bluebird Photo]<br>Pair at backyard feeder</div>
+                </div>
             </div>
+            <p class="image-caption">Eastern Bluebirds at feeder - Your customers will return week after week to keep their bluebirds well-fed.</p>
             
             <div class="testimonial">
                 <p>"I started with one bin in my basement just to feed my own bluebirds. Within three months, neighbors were asking to buy my extras. Now I have four bins and sell to 12 regular customers. I make about $150 a month and it takes me maybe 2 hours total per week."</p>
@@ -302,10 +318,13 @@
         <div class="container">
             <h2>The Math That Makes This a No-Brainer</h2>
             
-            <div class="image-section">
-                <img src="https://www.allaboutbirds.org/guide/assets/photo/297342311-480px.jpg" alt="Eastern Bluebird feeding" onerror="this.style.display='none'">
-                <p class="image-caption">Eastern Bluebird feeding - A single pair can consume thousands of mealworms per month, creating steady repeat customers.</p>
+            <div class="image-placeholder">
+                <div>
+                    <div class="icon">🪱</div>
+                    <div>[Eastern Bluebird Photo]<br>Eating mealworms at feeder</div>
+                </div>
             </div>
+            <p class="image-caption">Eastern Bluebird feeding - A single pair can consume thousands of mealworms per month, creating steady repeat customers.</p>
             
             <div class="math-box">
                 <h4>Startup Costs: $40 total</h4>
